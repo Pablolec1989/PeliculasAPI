@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.EntityFrameworkCore;
 using PeliculasAPI.DTOs;
 using PeliculasAPI.Entidades;
@@ -13,13 +14,20 @@ namespace PeliculasAPI.Controllers
     {
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
+        private readonly IOutputCacheStore outputCacheStore;
+        private readonly string cacheTag;
 
-        public CustomBaseController(ApplicationDbContext context, IMapper mapper)
+        public CustomBaseController(ApplicationDbContext context, 
+            IMapper mapper,
+            IOutputCacheStore outputCacheStore, string cacheTag)
         {
             this.context = context;
             this.mapper = mapper;
+            this.outputCacheStore = outputCacheStore;
+            this.cacheTag = cacheTag;
         }
 
+        //GET
         protected async Task<List<TDTO>> Get<TEntidad, TDTO>(PaginacionDTO paginacion, 
             Expression<Func<TEntidad, object>> ordenarPor)
             where TEntidad : class
@@ -35,6 +43,7 @@ namespace PeliculasAPI.Controllers
 
         }
 
+        //GET by Id
         protected async Task<ActionResult<TDTO>> Get<TEntidad, TDTO> (int id)
             where TEntidad : class, IId
             where TDTO : IId
@@ -49,6 +58,58 @@ namespace PeliculasAPI.Controllers
             }
 
             return entidad;
+        }
+
+        //POST
+        protected async Task<IActionResult> Post<TCreationDTO, TEntidad, TDTO>
+            (TCreationDTO creationDTO, string nombreRuta)
+            where TEntidad : class, IId
+        {
+            var entidad = mapper.Map<TEntidad>(creationDTO);
+
+            context.Add(entidad);
+            await context.SaveChangesAsync();
+
+            await outputCacheStore.EvictByTagAsync(cacheTag, default);
+            var entidadDTO = mapper.Map<TDTO>(entidad);
+            return CreatedAtRoute(nombreRuta, new { id = entidad.Id }, entidadDTO);
+        }
+
+        //PUT
+        protected async Task<IActionResult> Put<TCreationDTO, TEntidad>
+            (int id, TCreationDTO creationDTO)
+            where TEntidad : class, IId
+        {
+            var entidadExiste = await context.Set<TEntidad>().AnyAsync(g => g.Id == id);
+
+            if (!entidadExiste)
+            {
+                return NotFound();
+            }
+
+            var entidad = mapper.Map<TEntidad>(creationDTO);
+            entidad.Id = id;
+
+            context.Update(entidad);
+            await context.SaveChangesAsync();
+            await outputCacheStore.EvictByTagAsync(cacheTag, default);
+
+            return NoContent();
+        }
+
+        //DELETE
+        protected async Task<IActionResult> Delete<TEntidad>(int id)
+            where TEntidad : class, IId
+        {
+            var registrosBorrados = await context.Set<TEntidad>().Where(g => g.Id == id).ExecuteDeleteAsync();
+
+            if (registrosBorrados == 0)
+            {
+                return NotFound();
+            }
+
+            await outputCacheStore.EvictByTagAsync(cacheTag, default);
+            return NoContent();
         }
     }
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\leccese\\source\\repos\\curso-angular\\peliculasapi\\peliculasapi\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\leccese\\source\\repos\\curso-angular\\peliculasapi\\peliculasapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\leccese\\source\\repos\\curso-angular\\peliculasapi\\peliculasapi\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\leccese\\source\\repos\\curso-angular\\peliculasapi\\peliculasapi\\controllers\\cinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\cinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\leccese\\source\\repos\\curso-angular\\peliculasapi\\peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\leccese\\source\\repos\\curso-angular\\peliculasapi\\peliculasapi\\dtos\\cinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1189DC-70C8-4F10-AFC1-9599F37F3E86}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\cinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,40 +63,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ActoresController.cs",
-              "DocumentMoniker": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActoresController.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\ActoresController.cs",
-              "ToolTip": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActoresController.cs",
-              "RelativeToolTip": "PeliculasAPI\\Controllers\\ActoresController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAAyAAAAAAAAAA==",
+              "Title": "AutomapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Utilidades\\AutomapperProfiles.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\AutomapperProfiles.cs",
+              "ToolTip": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Utilidades\\AutomapperProfiles.cs",
+              "RelativeToolTip": "PeliculasAPI\\Utilidades\\AutomapperProfiles.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T12:41:06.514Z",
+              "WhenOpened": "2025-03-04T12:32:15.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GenerosController.cs",
-              "DocumentMoniker": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\GenerosController.cs",
-              "ToolTip": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
-              "RelativeToolTip": "PeliculasAPI\\Controllers\\GenerosController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAAA0AAAAAAAAAA==",
+              "Title": "CineDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\DTOs\\CineDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\CineDTO.cs",
+              "ToolTip": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\DTOs\\CineDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\DTOs\\CineDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T12:25:48.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T11:27:33.695Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomBaseController.cs",
-              "DocumentMoniker": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\CustomBaseController.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\CustomBaseController.cs",
-              "ToolTip": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\CustomBaseController.cs",
-              "RelativeToolTip": "PeliculasAPI\\Controllers\\CustomBaseController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA5wDIAAAAbAAAAAAAAAA==",
+              "Title": "CinesController.cs",
+              "DocumentMoniker": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\CinesController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\CinesController.cs",
+              "ToolTip": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\Controllers\\CinesController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\CinesController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwDYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T12:05:47.385Z",
+              "WhenOpened": "2025-03-04T11:23:56.497Z",
               "EditorCaption": ""
             }
           ]

@@ -20,7 +20,7 @@ namespace PeliculasAPI.Controllers
 
         public GenerosController(IOutputCacheStore outputCacheStore, 
             ApplicationDbContext context, 
-            IMapper mapper) : base(context, mapper)
+            IMapper mapper) : base(context, mapper, outputCacheStore, cacheTag)
         {
             this.outputCacheStore = outputCacheStore;
             this.context = context;
@@ -49,52 +49,23 @@ namespace PeliculasAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] GeneroCreationDTO generoCreationDTO)
         {
-            var genero = mapper.Map<Genero>(generoCreationDTO);
-
-            context.Add(genero);
-            await context.SaveChangesAsync();
-            
-            await outputCacheStore.EvictByTagAsync(cacheTag, default);
-
-            return CreatedAtRoute("ObtenerGeneroPorId", new { id = genero.Id }, genero);
+            return await Post<GeneroCreationDTO, Genero, GeneroDTO>(generoCreationDTO, "ObtenerGeneroPorId");
         }
 
 
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Put(int id, [FromBody] GeneroCreationDTO generoCreationDTO)
         {
-            var generoExiste = await context.Generos.AnyAsync(g => g.Id == id);
+            return await Put<GeneroCreationDTO, Genero>(id, generoCreationDTO);
 
-            if (!generoExiste)
-            {
-                return NotFound();
-            }
-
-            var genero = mapper.Map<Genero>(generoCreationDTO);
-
-            genero.Id = id;
-
-            context.Update(genero);
-            await context.SaveChangesAsync();
-            await outputCacheStore.EvictByTagAsync(cacheTag, default);
-
-            return NoContent();
 
         }
 
 
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var registrosBorrados = await context.Generos.Where(g => g.Id == id).ExecuteDeleteAsync();
-
-            if(registrosBorrados == 0)
-            {
-                return NotFound();
-            }
-
-            await outputCacheStore.EvictByTagAsync(cacheTag, default);
-            return NoContent();
+            return await Delete<Genero>(id);
         }
 
     }
