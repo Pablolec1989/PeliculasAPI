@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +14,7 @@ namespace PeliculasAPI.Controllers
 {
     [ApiController]
     [Route("api/actores")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "Admin")]
     public class ActoresController : CustomBaseController
     {
         private readonly ApplicationDbContext context;
@@ -44,6 +47,13 @@ namespace PeliculasAPI.Controllers
         public async Task<ActionResult<ActorDTO>> Get(int id)
         {
             return await Get<Actor, ActorDTO>(id);
+        }
+
+        [HttpGet("{nombre}")]
+        public async Task<ActionResult<List<PeliculaActorDTO>>> Get(string nombre)
+        {
+            return await context.Actores.Where(a => a.Nombre.Contains(nombre))
+                .ProjectTo<PeliculaActorDTO>(mapper.ConfigurationProvider).ToListAsync();
         }
 
         [HttpPost]

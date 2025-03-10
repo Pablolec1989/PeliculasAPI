@@ -27,7 +27,18 @@ namespace PeliculasAPI.Controllers
             this.cacheTag = cacheTag;
         }
 
-        //GET
+        //GET sin pag
+        protected async Task<List<TDTO>> Get<TEntidad, TDTO>(Expression<Func<TEntidad, object>> ordenarPor) 
+            where TEntidad : class
+        {
+            return await context.Set<TEntidad>()
+                .OrderBy(ordenarPor)
+                .ProjectTo<TDTO>(mapper.ConfigurationProvider)
+                .ToListAsync();
+
+        }
+
+        //GET con pag.
         protected async Task<List<TDTO>> Get<TEntidad, TDTO>(PaginacionDTO paginacion, 
             Expression<Func<TEntidad, object>> ordenarPor)
             where TEntidad : class
@@ -40,7 +51,6 @@ namespace PeliculasAPI.Controllers
                 .Paginar(paginacion)
                 .ProjectTo<TDTO>(mapper.ConfigurationProvider)
                 .ToListAsync();
-
         }
 
         //GET by Id

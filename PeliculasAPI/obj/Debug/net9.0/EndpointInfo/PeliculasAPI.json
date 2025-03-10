@@ -230,12 +230,246 @@
         }
       }
     },
+    "/api/actores/{nombre}": {
+      "get": {
+        "tags": [
+          "Actores"
+        ],
+        "parameters": [
+          {
+            "name": "nombre",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PeliculaActorDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PeliculaActorDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PeliculaActorDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/cines": {
+      "get": {
+        "tags": [
+          "Cines"
+        ],
+        "operationId": "ObtenerCinePorId",
+        "parameters": [
+          {
+            "name": "Pagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "RecordsPorPagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CineDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CineDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CineDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Cines"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CineCreationDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CineCreationDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CineCreationDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/cines/{id}": {
+      "get": {
+        "tags": [
+          "Cines"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CineDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CineDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CineDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Cines"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CineCreationDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CineCreationDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CineCreationDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Cines"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/generos": {
       "get": {
         "tags": [
           "Generos"
         ],
-        "operationId": "ObtenerGeneroPorId",
         "parameters": [
           {
             "name": "Pagina",
@@ -316,11 +550,50 @@
         }
       }
     },
+    "/api/generos/todos": {
+      "get": {
+        "tags": [
+          "Generos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GeneroDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GeneroDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GeneroDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/generos/{id}": {
       "get": {
         "tags": [
           "Generos"
         ],
+        "operationId": "ObtenerGeneroPorId",
         "parameters": [
           {
             "name": "id",
@@ -416,6 +689,683 @@
           }
         }
       }
+    },
+    "/api/peliculas/landing": {
+      "get": {
+        "tags": [
+          "Peliculas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LandingPageDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LandingPageDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LandingPageDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/peliculas/{id}": {
+      "get": {
+        "tags": [
+          "Peliculas"
+        ],
+        "operationId": "ObtenerPeliculaPorId",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculaDetallesDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculaDetallesDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculaDetallesDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Peliculas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "GenerosIds",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          },
+          {
+            "name": "CinesIds",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          },
+          {
+            "name": "Actores",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ActorPeliculaCreationDTO"
+              }
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Titulo"
+                ],
+                "type": "object",
+                "properties": {
+                  "Titulo": {
+                    "maxLength": 300,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Trailer": {
+                    "type": "string"
+                  },
+                  "FechaLanzamiento": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Poster": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Titulo": {
+                  "style": "form"
+                },
+                "Trailer": {
+                  "style": "form"
+                },
+                "FechaLanzamiento": {
+                  "style": "form"
+                },
+                "Poster": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Peliculas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/peliculas/filtrar": {
+      "get": {
+        "tags": [
+          "Peliculas"
+        ],
+        "parameters": [
+          {
+            "name": "Pagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "RecordsPorPagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Titulo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "GeneroId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "enCines",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "ProximosEstrenos",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PeliculaDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PeliculaDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PeliculaDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/peliculas/PostGet": {
+      "get": {
+        "tags": [
+          "Peliculas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPostGetDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPostGetDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPostGetDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/peliculas": {
+      "post": {
+        "tags": [
+          "Peliculas"
+        ],
+        "parameters": [
+          {
+            "name": "GenerosIds",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          },
+          {
+            "name": "CinesIds",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          },
+          {
+            "name": "Actores",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ActorPeliculaCreationDTO"
+              }
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Titulo"
+                ],
+                "type": "object",
+                "properties": {
+                  "Titulo": {
+                    "maxLength": 300,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Trailer": {
+                    "type": "string"
+                  },
+                  "FechaLanzamiento": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Poster": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Titulo": {
+                  "style": "form"
+                },
+                "Trailer": {
+                  "style": "form"
+                },
+                "FechaLanzamiento": {
+                  "style": "form"
+                },
+                "Poster": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/peliculas/PutGet/{id}": {
+      "get": {
+        "tags": [
+          "Peliculas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPutGetDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPutGetDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPutGetDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/rating": {
+      "post": {
+        "tags": [
+          "Ratings"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RatingCreationDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RatingCreationDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RatingCreationDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/usuarios/listadoUsuarios": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "Pagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "RecordsPorPagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/usuarios/registrar": {
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CredencialesUsuarioDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CredencialesUsuarioDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CredencialesUsuarioDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaAutenticacionDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaAutenticacionDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaAutenticacionDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/usuarios/login": {
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CredencialesUsuarioDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CredencialesUsuarioDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CredencialesUsuarioDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaAutenticacionDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaAutenticacionDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaAutenticacionDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/usuarios/HacerAdmin": {
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditarClaimDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditarClaimDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditarClaimDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/usuarios/RemoverAdmin": {
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditarClaimDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditarClaimDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditarClaimDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -439,6 +1389,110 @@
             "format": "date-time"
           },
           "foto": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ActorPeliculaCreationDTO": {
+        "required": [
+          "personaje"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "personaje": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CineCreationDTO": {
+        "required": [
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 75,
+            "minLength": 0,
+            "type": "string"
+          },
+          "latitud": {
+            "maximum": 90,
+            "minimum": -90,
+            "type": "number",
+            "format": "double"
+          },
+          "longitud": {
+            "maximum": 180,
+            "minimum": -180,
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CineDTO": {
+        "required": [
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 75,
+            "minLength": 0,
+            "type": "string"
+          },
+          "latitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitud": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CredencialesUsuarioDTO": {
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EditarClaimDTO": {
+        "required": [
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
             "type": "string",
             "nullable": true
           }
@@ -470,6 +1524,255 @@
             "format": "int32"
           },
           "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LandingPageDTO": {
+        "type": "object",
+        "properties": {
+          "enCines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PeliculaDTO"
+            },
+            "nullable": true
+          },
+          "proximosEstrenos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PeliculaDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PeliculaActorDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 150,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "foto": {
+            "type": "string",
+            "nullable": true
+          },
+          "personaje": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PeliculaDTO": {
+        "required": [
+          "titulo"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "trailer": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaLanzamiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "poster": {
+            "type": "string",
+            "nullable": true
+          },
+          "promedioVoto": {
+            "type": "number",
+            "format": "double"
+          },
+          "votoUsuario": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PeliculaDetallesDTO": {
+        "required": [
+          "titulo"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "trailer": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaLanzamiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "poster": {
+            "type": "string",
+            "nullable": true
+          },
+          "promedioVoto": {
+            "type": "number",
+            "format": "double"
+          },
+          "votoUsuario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "generos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GeneroDTO"
+            },
+            "nullable": true
+          },
+          "cines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CineDTO"
+            },
+            "nullable": true
+          },
+          "actores": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PeliculaActorDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PeliculasPostGetDTO": {
+        "type": "object",
+        "properties": {
+          "generos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GeneroDTO"
+            },
+            "nullable": true
+          },
+          "cines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CineDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PeliculasPutGetDTO": {
+        "type": "object",
+        "properties": {
+          "pelicula": {
+            "$ref": "#/components/schemas/PeliculaDTO"
+          },
+          "generosSeleccionados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GeneroDTO"
+            },
+            "nullable": true
+          },
+          "generosNoSeleccionados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GeneroDTO"
+            },
+            "nullable": true
+          },
+          "cinesSeleccionados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CineDTO"
+            },
+            "nullable": true
+          },
+          "cinesNoSeleccionados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CineDTO"
+            },
+            "nullable": true
+          },
+          "actores": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PeliculaActorDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RatingCreationDTO": {
+        "type": "object",
+        "properties": {
+          "peliculaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "puntuacion": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RespuestaAutenticacionDTO": {
+        "required": [
+          "token"
+        ],
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "expiracion": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuarioDTO": {
+        "required": [
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
             "type": "string",
             "nullable": true
           }

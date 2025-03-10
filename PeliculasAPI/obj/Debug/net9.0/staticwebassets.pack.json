@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif",
+      "PackagePath": "staticwebassets\\actores\\025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif"
+    },
+    {
       "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif",
       "PackagePath": "staticwebassets\\actores\\32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif"
     },
@@ -23,6 +27,26 @@
     {
       "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif",
       "PackagePath": "staticwebassets\\actores\\a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif"
+    },
+    {
+      "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif",
+      "PackagePath": "staticwebassets\\peliculas\\c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif"
+    },
+    {
+      "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c7d77d31-5875-416e-8724-2878279018e3.jfif",
+      "PackagePath": "staticwebassets\\peliculas\\c7d77d31-5875-416e-8724-2878279018e3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif",
+      "PackagePath": "staticwebassets\\peliculas\\d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif"
+    },
+    {
+      "Id": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PeliculasAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

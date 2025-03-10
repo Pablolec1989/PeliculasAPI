@@ -131,6 +131,143 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PeliculasAPI.Controllers.ActoresController",
+    "Method": "Get",
+    "RelativePath": "api/actores/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.PeliculaActorDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.CinesController",
+    "Method": "Get",
+    "RelativePath": "api/cines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecordsPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.CineDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerCinePorId"
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.CinesController",
+    "Method": "Post",
+    "RelativePath": "api/cines",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cineCreationDTO",
+        "Type": "PeliculasAPI.DTOs.CineCreationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.CinesController",
+    "Method": "Get",
+    "RelativePath": "api/cines/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PeliculasAPI.DTOs.CineDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.CinesController",
+    "Method": "Put",
+    "RelativePath": "api/cines/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cineCreationDTO",
+        "Type": "PeliculasAPI.DTOs.CineCreationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.CinesController",
+    "Method": "Delete",
+    "RelativePath": "api/cines/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PeliculasAPI.Controllers.GenerosController",
     "Method": "Get",
     "RelativePath": "api/generos",
@@ -159,8 +296,7 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "ObtenerGeneroPorId"
+    ]
   },
   {
     "ContainingType": "PeliculasAPI.Controllers.GenerosController",
@@ -202,7 +338,8 @@
         ],
         "StatusCode": 200
       }
-    ]
+    ],
+    "EndpointName": "ObtenerGeneroPorId"
   },
   {
     "ContainingType": "PeliculasAPI.Controllers.GenerosController",
@@ -236,6 +373,414 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.GenerosController",
+    "Method": "Get",
+    "RelativePath": "api/generos/todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.GeneroDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "Post",
+    "RelativePath": "api/peliculas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Trailer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaLanzamiento",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "GenerosIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CinesIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actores",
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.ActorPeliculaCreationDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "Get",
+    "RelativePath": "api/peliculas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PeliculasAPI.DTOs.PeliculaDetallesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerPeliculaPorId"
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "Put",
+    "RelativePath": "api/peliculas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Trailer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaLanzamiento",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "GenerosIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CinesIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actores",
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.ActorPeliculaCreationDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "Delete",
+    "RelativePath": "api/peliculas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "Get",
+    "RelativePath": "api/peliculas/filtrar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecordsPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GeneroId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "enCines",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProximosEstrenos",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.PeliculaDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "Get",
+    "RelativePath": "api/peliculas/landing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "PeliculasAPI.DTOs.LandingPageDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "PostGet",
+    "RelativePath": "api/peliculas/PostGet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "PeliculasAPI.DTOs.PeliculasPostGetDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
+    "Method": "PutGet",
+    "RelativePath": "api/peliculas/PutGet/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PeliculasAPI.DTOs.PeliculasPutGetDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.RatingsController",
+    "Method": "Post",
+    "RelativePath": "api/rating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ratingCreacionDTO",
+        "Type": "PeliculasAPI.DTOs.RatingCreationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "HacerAdmin",
+    "RelativePath": "api/usuarios/HacerAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarClaimDTO",
+        "Type": "PeliculasAPI.DTOs.EditarClaimDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "ListadoUsuarios",
+    "RelativePath": "api/usuarios/listadoUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecordsPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.UsuarioDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "api/usuarios/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credencialesUsuarioDTO",
+        "Type": "PeliculasAPI.DTOs.CredencialesUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PeliculasAPI.DTOs.RespuestaAutenticacionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "Registrar",
+    "RelativePath": "api/usuarios/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credencialesUsuarioDTO",
+        "Type": "PeliculasAPI.DTOs.CredencialesUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PeliculasAPI.DTOs.RespuestaAutenticacionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "RemoverAdmin",
+    "RelativePath": "api/usuarios/RemoverAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarClaimDTO",
+        "Type": "PeliculasAPI.DTOs.EditarClaimDTO",
         "IsRequired": true
       }
     ],

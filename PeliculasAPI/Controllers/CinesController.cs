@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
 using PeliculasAPI.DTOs;
@@ -8,6 +10,7 @@ namespace PeliculasAPI.Controllers
 {
     [ApiController]
     [Route("api/cines")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "Admin")]
     public class CinesController : CustomBaseController
     {
         private readonly ApplicationDbContext context;
@@ -43,7 +46,7 @@ namespace PeliculasAPI.Controllers
             return await Post<CineCreationDTO, Cine, CineDTO>(cineCreationDTO, "ObtenerCinePorId");
         }
 
-        [HttpPut("{int:id}")]
+        [HttpPut("{id:int}")]
         public async Task<IActionResult> Put(int id, [FromBody] CineCreationDTO cineCreationDTO)
         {
             return await Put<CineCreationDTO, Cine>(id, cineCreationDTO);

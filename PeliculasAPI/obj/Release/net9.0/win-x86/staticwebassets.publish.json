@@ -1,0 +1,1258 @@
+{
+  "Version": 1,
+  "Hash": "9TMn9w3vGP5L8NiLrDguujJuTc1vI5D7sNFGxaZFyqg=",
+  "Source": "PeliculasAPI",
+  "BasePath": "_content/PeliculasAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PeliculasAPI\\wwwroot",
+      "Source": "PeliculasAPI",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/025bb7df-8ed9-4637-94ab-daef1bf4b29e#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6h8cf1v6t6",
+      "Integrity": "Fsd+ib/0DX6GcRkUWfZDSm324NFoFJQ4fDWBHmmJ3Hg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/32b99da1-763e-4f5f-a129-8a5d140ecbad#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lusoeu628w",
+      "Integrity": "DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\49036301-5695-49fd-867f-caf338dc1b3a.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/49036301-5695-49fd-867f-caf338dc1b3a#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lusoeu628w",
+      "Integrity": "DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\49036301-5695-49fd-867f-caf338dc1b3a.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\72634b54-0f0a-4a67-8b13-58b445f710ae.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/72634b54-0f0a-4a67-8b13-58b445f710ae#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3gdb4l99sd",
+      "Integrity": "0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\72634b54-0f0a-4a67-8b13-58b445f710ae.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\7beca454-cb02-4c7f-9ab6-08fb1e97aa93.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/7beca454-cb02-4c7f-9ab6-08fb1e97aa93#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lusoeu628w",
+      "Integrity": "DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\7beca454-cb02-4c7f-9ab6-08fb1e97aa93.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\9c876a05-97e0-4df5-a457-70546cf6d0e2.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/9c876a05-97e0-4df5-a457-70546cf6d0e2#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3gdb4l99sd",
+      "Integrity": "0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\9c876a05-97e0-4df5-a457-70546cf6d0e2.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/a29c5fab-19fc-4b0b-8055-6b16b8344239#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lusoeu628w",
+      "Integrity": "DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/133de6a5-2321-4e5e-8b5e-d4781b76a275#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g5cl0flaf5",
+      "Integrity": "PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/c5f8d7ae-c8a4-4382-a367-5c4ad3c24241#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oww89yihh4",
+      "Integrity": "mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c7d77d31-5875-416e-8724-2878279018e3.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/c7d77d31-5875-416e-8724-2878279018e3#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3gdb4l99sd",
+      "Integrity": "0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\c7d77d31-5875-416e-8724-2878279018e3.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/d2d55a42-33d2-43a2-9b55-3fa455857a38#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oww89yihh4",
+      "Integrity": "mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/df83e742-6ea8-4f45-8cdf-d9b51517ec2c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g5cl0flaf5",
+      "Integrity": "PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "actores/025bb7df-8ed9-4637-94ab-daef1bf4b29e.6h8cf1v6t6.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fsd+ib/0DX6GcRkUWfZDSm324NFoFJQ4fDWBHmmJ3Hg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 11:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h8cf1v6t6"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fsd+ib/0DX6GcRkUWfZDSm324NFoFJQ4fDWBHmmJ3Hg="
+        }
+      ]
+    },
+    {
+      "Route": "actores/025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\025bb7df-8ed9-4637-94ab-daef1bf4b29e.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fsd+ib/0DX6GcRkUWfZDSm324NFoFJQ4fDWBHmmJ3Hg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 11:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fsd+ib/0DX6GcRkUWfZDSm324NFoFJQ4fDWBHmmJ3Hg="
+        }
+      ]
+    },
+    {
+      "Route": "actores/32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "actores/32b99da1-763e-4f5f-a129-8a5d140ecbad.lusoeu628w.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lusoeu628w"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/32b99da1-763e-4f5f-a129-8a5d140ecbad.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "actores/49036301-5695-49fd-867f-caf338dc1b3a.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\49036301-5695-49fd-867f-caf338dc1b3a.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "actores/49036301-5695-49fd-867f-caf338dc1b3a.lusoeu628w.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\49036301-5695-49fd-867f-caf338dc1b3a.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lusoeu628w"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/49036301-5695-49fd-867f-caf338dc1b3a.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "actores/72634b54-0f0a-4a67-8b13-58b445f710ae.3gdb4l99sd.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\72634b54-0f0a-4a67-8b13-58b445f710ae.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 20:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gdb4l99sd"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/72634b54-0f0a-4a67-8b13-58b445f710ae.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY="
+        }
+      ]
+    },
+    {
+      "Route": "actores/72634b54-0f0a-4a67-8b13-58b445f710ae.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\72634b54-0f0a-4a67-8b13-58b445f710ae.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 20:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY="
+        }
+      ]
+    },
+    {
+      "Route": "actores/7beca454-cb02-4c7f-9ab6-08fb1e97aa93.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\7beca454-cb02-4c7f-9ab6-08fb1e97aa93.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 20:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "actores/7beca454-cb02-4c7f-9ab6-08fb1e97aa93.lusoeu628w.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\7beca454-cb02-4c7f-9ab6-08fb1e97aa93.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 20:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lusoeu628w"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/7beca454-cb02-4c7f-9ab6-08fb1e97aa93.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "actores/9c876a05-97e0-4df5-a457-70546cf6d0e2.3gdb4l99sd.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\9c876a05-97e0-4df5-a457-70546cf6d0e2.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 12:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gdb4l99sd"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/9c876a05-97e0-4df5-a457-70546cf6d0e2.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY="
+        }
+      ]
+    },
+    {
+      "Route": "actores/9c876a05-97e0-4df5-a457-70546cf6d0e2.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\9c876a05-97e0-4df5-a457-70546cf6d0e2.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 12:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY="
+        }
+      ]
+    },
+    {
+      "Route": "actores/a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 20:32:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "actores/a29c5fab-19fc-4b0b-8055-6b16b8344239.lusoeu628w.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 20:32:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lusoeu628w"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/a29c5fab-19fc-4b0b-8055-6b16b8344239.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DY6WrtHLwxseXRV1cL4maCKizbsZGUDp3+pepjAfkcI="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/133de6a5-2321-4e5e-8b5e-d4781b76a275.g5cl0flaf5.jpg",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:34:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g5cl0flaf5"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\133de6a5-2321-4e5e-8b5e-d4781b76a275.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:34:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.oww89yihh4.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oww89yihh4"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/c5f8d7ae-c8a4-4382-a367-5c4ad3c24241.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/c7d77d31-5875-416e-8724-2878279018e3.3gdb4l99sd.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c7d77d31-5875-416e-8724-2878279018e3.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 14:18:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gdb4l99sd"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/c7d77d31-5875-416e-8724-2878279018e3.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/c7d77d31-5875-416e-8724-2878279018e3.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\c7d77d31-5875-416e-8724-2878279018e3.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 14:18:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+A17cCL5e8qO2hRvWHXVwidijz1QqtQKaailnLKMDY="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 11:32:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/d2d55a42-33d2-43a2-9b55-3fa455857a38.oww89yihh4.jfif",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 11:32:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oww89yihh4"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/d2d55a42-33d2-43a2-9b55-3fa455857a38.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mCnZltvvpUppQxYCYxTLF1nI3FjMlShRZIKdUqX7reQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/df83e742-6ea8-4f45-8cdf-d9b51517ec2c.g5cl0flaf5.jpg",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 12:45:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g5cl0flaf5"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg",
+      "AssetFile": "C:\\Users\\LECCESE\\source\\repos\\Curso-angular\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\df83e742-6ea8-4f45-8cdf-d9b51517ec2c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 12:45:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PGNjL93pkaGl59vlUBK59I06a4Am9Cl23s/XrFnrkBs="
+        }
+      ]
+    }
+  ]
+}
